@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		815788A91C57B731009D7A67 /* popView_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 815788A81C57B731009D7A67 /* popView_close@2x.png */; };
+		815788AB1C57BC21009D7A67 /* ic_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 815788AA1C57BC21009D7A67 /* ic_close.png */; };
+		815788AD1C57BE96009D7A67 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 815788AC1C57BE96009D7A67 /* close.png */; };
 		81FE15571C57696400219226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FE15561C57696400219226 /* main.m */; };
 		81FE155A1C57696400219226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FE15591C57696400219226 /* AppDelegate.m */; };
 		81FE155D1C57696400219226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FE155C1C57696400219226 /* ViewController.m */; };
@@ -15,6 +18,9 @@
 		81FE15651C57696400219226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FE15631C57696400219226 /* LaunchScreen.storyboard */; };
 		81FE15701C57696400219226 /* PopupAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FE156F1C57696400219226 /* PopupAnimationDemoTests.m */; };
 		81FE157B1C57696400219226 /* PopupAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FE157A1C57696400219226 /* PopupAnimationDemoUITests.m */; };
+		81FE158C1C5775D500219226 /* AddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FE158B1C5775D500219226 /* AddressPickerView.m */; };
+		81FE158E1C5782F200219226 /* 2.pic_hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81FE158D1C5782F200219226 /* 2.pic_hd.jpg */; };
+		81FE15901C5782F700219226 /* 0124ae43ed25fe0403bc37a08acd5dc88f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81FE158F1C5782F700219226 /* 0124ae43ed25fe0403bc37a08acd5dc88f.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		815788A81C57B731009D7A67 /* popView_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popView_close@2x.png"; sourceTree = "<group>"; };
+		815788AA1C57BC21009D7A67 /* ic_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_close.png; sourceTree = "<group>"; };
+		815788AC1C57BE96009D7A67 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		81FE15521C57696400219226 /* PopupAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FE15561C57696400219226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81FE15581C57696400219226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,10 @@
 		81FE15761C57696400219226 /* PopupAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FE157A1C57696400219226 /* PopupAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupAnimationDemoUITests.m; sourceTree = "<group>"; };
 		81FE157C1C57696400219226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81FE158A1C5775D500219226 /* AddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressPickerView.h; sourceTree = "<group>"; };
+		81FE158B1C5775D500219226 /* AddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressPickerView.m; sourceTree = "<group>"; };
+		81FE158D1C5782F200219226 /* 2.pic_hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.pic_hd.jpg; sourceTree = "<group>"; };
+		81FE158F1C5782F700219226 /* 0124ae43ed25fe0403bc37a08acd5dc88f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0124ae43ed25fe0403bc37a08acd5dc88f.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +118,17 @@
 				81FE15591C57696400219226 /* AppDelegate.m */,
 				81FE155B1C57696400219226 /* ViewController.h */,
 				81FE155C1C57696400219226 /* ViewController.m */,
+				81FE158A1C5775D500219226 /* AddressPickerView.h */,
+				81FE158B1C5775D500219226 /* AddressPickerView.m */,
 				81FE155E1C57696400219226 /* Main.storyboard */,
 				81FE15611C57696400219226 /* Assets.xcassets */,
 				81FE15631C57696400219226 /* LaunchScreen.storyboard */,
+				81FE158F1C5782F700219226 /* 0124ae43ed25fe0403bc37a08acd5dc88f.jpg */,
+				81FE158D1C5782F200219226 /* 2.pic_hd.jpg */,
+				815788AA1C57BC21009D7A67 /* ic_close.png */,
+				815788A81C57B731009D7A67 /* popView_close@2x.png */,
 				81FE15661C57696400219226 /* Info.plist */,
+				815788AC1C57BE96009D7A67 /* close.png */,
 				81FE15551C57696400219226 /* Supporting Files */,
 			);
 			path = PopupAnimationDemo;
@@ -243,8 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815788AB1C57BC21009D7A67 /* ic_close.png in Resources */,
+				81FE15901C5782F700219226 /* 0124ae43ed25fe0403bc37a08acd5dc88f.jpg in Resources */,
+				815788AD1C57BE96009D7A67 /* close.png in Resources */,
 				81FE15651C57696400219226 /* LaunchScreen.storyboard in Resources */,
 				81FE15621C57696400219226 /* Assets.xcassets in Resources */,
+				815788A91C57B731009D7A67 /* popView_close@2x.png in Resources */,
+				81FE158E1C5782F200219226 /* 2.pic_hd.jpg in Resources */,
 				81FE15601C57696400219226 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81FE155D1C57696400219226 /* ViewController.m in Sources */,
+				81FE158C1C5775D500219226 /* AddressPickerView.m in Sources */,
 				81FE155A1C57696400219226 /* AppDelegate.m in Sources */,
 				81FE15571C57696400219226 /* main.m in Sources */,
 			);
@@ -498,6 +524,7 @@
 				81FE15811C57696400219226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81FE15821C57696400219226 /* Build configuration list for PBXNativeTarget "PopupAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +533,7 @@
 				81FE15841C57696400219226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81FE15851C57696400219226 /* Build configuration list for PBXNativeTarget "PopupAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +542,7 @@
 				81FE15871C57696400219226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

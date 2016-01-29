@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "AddressPickerView.h"
 
-@interface ViewController ()
+
+@interface ViewController (){
+    UIView *_bgView;
+    UIView *_testView;
+}
 
 @end
 
@@ -16,12 +21,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor orangeColor];
+    
+      
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+
+- (IBAction)popUpAction:(UIButton *)sender {
+    AddressPickerView *pickerView = [[AddressPickerView alloc]initWithFrame:CGRectMake(0, 568, 320, 568)];
+    [[UIApplication sharedApplication].keyWindow addSubview:pickerView];
+    pickerView.frame = CGRectMake(0, 0, 320, 568);
+
+ 
+
 }
+
 
 @end
